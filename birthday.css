@@ -1,0 +1,115 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background: #a2d2ff;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    
+
+}
+#home_button {
+    background-color: #35008a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 80px;
+
+    
+}
+#home_link {
+    text-decoration: none;;
+    color: white;
+}
+
+#bd_pic{
+    width: 260px;
+    height: 280px;
+    border-radius: 50%;
+    border: 8px solid #efb0c9;
+}
+
+h1, h2, h3, h4, h5, h6,p{
+    text-shadow: 0px 0px 1px #000000;
+}
+
+#bday_age{
+    background:#efb0c9;
+    color : #35008a;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+#bday_date{
+     background:#efb0c9;
+    color : #35008a;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    
+    
+}
+#happy_message{
+    text-shadow: 0px 0px 1px #000000;
+    margin: 50px 0px 0px 0px; 
+}
+
+#hover_message{
+    margin-top: 10px;
+    color: blue;
+   text-shadow: 0px 0px 1px #000000;
+    margin: 10px 0px 10px 0px;
+}
+.gift_section{
+    background: url("gift cover.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid white;
+    background-size: cover;
+    margin: auto auto;
+}
+
+.gift_section:hover{
+    background: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRrN3J5MGRvNWJvNmNqaGcwZjVwOG1kOHAzOHhrYmM5MmcxNGl1NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/g5R9dok94mrIvplmZd/200.webp");
+    border: 0px dashed blue;
+    
+}
+.gift_section:active{
+    background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRrN3J5MGRvNWJvNmNqaGcwZjVwOG1kOHAzOHhrYmM5MmcxNGl1NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TbyAOtYa4ywrSpvjtm/giphy.webp");
+  
+}
+
+#react{
+    margin-top: 30px;
+    color: blue;
+    text-shadow: 0px 0px 1px #000000;
+
+}
+.react{
+    width: 300px;
+    height: 300px;
+    background: url("gift cover.jpg");
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.react:hover{
+    background: url("https://media0.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YnozYng5d2IwenI4bXlueHJvNXVmcGM5aDZjcXZsY3ZibzBhMjY5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bQtUQp1wRZIUujzJ7E/200.webp");
+    border: 0px dashed blue;
+}

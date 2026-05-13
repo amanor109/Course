@@ -1,0 +1,33 @@
+.main_background {
+    background-color: rgb(157, 157, 233);
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    padding: 20px;
+    justify-content: space-around;
+    border-bottom: 20px solid green;
+    
+    
+}
+
+.image_section{
+    display: inline;
+    
+
+}
+.text_section{
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+img{
+    width: 100px;
+    
+}
+

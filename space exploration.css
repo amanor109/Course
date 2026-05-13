@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+
+}
+.hero{
+    color: #748EB5;
+    background-image: url("univers.gif");
+    background-size: cover;
+    text-align: center;
+    font-family: "Orbitron";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    height: 1000px;
+    border: 2px solid white;
+    padding: 10px 0px 40px 0px;
+
+
+}
+.footer{
+    color: #748EB5;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    text-align: center;
+    
+}
+#space-x{
+    width: 100px;
+   
+}
+.terms{
+    
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+  
+
+
+.apply_button{
+   padding: 8px 18px 8px 18px;
+   font-size: 20px;
+   font-style: none;
+   background-color: white;
+   border: none;
+   font-family: inherit;
+   font-weight: bolder;
+   color: #748EB5;
+}
+.apply_button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.apply_text{
+    text-shadow: 3px 3px   rgba(0, 0, 0, 0.2);
+}
+.underline{
+    text-decoration: underline;
+
+    border-bottom: 5px solid white;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #748EB5;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.go_home{
+    background-color: transparent;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+.go_homer{
+    color: black;
+}
+.go_home:hover{
+    color: cyan;
+    translate: -2px -2px -2px;
+    transition: translate 0.2;
+    
+}
+.go_home:active{
+    translate: 2px 2px 2px;
+    transition: translate 0.2;
+}
